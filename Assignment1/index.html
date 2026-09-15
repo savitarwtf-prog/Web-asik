@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Step 0: HTML Boilerplate and page title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+
+    <!-- Step 15: Favicon setup -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Step 12: External CSS linkage -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Step 11: Internal CSS rules -->
+    <style>
+        body {
+            background-color: #f4f7f6;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Step 16: HTML Div for header section -->
+    <div class="header-section">
+        <!-- Step 1 & 14: Headings and ID selector target -->
+        <h1 id="main-heading">Zhurek Aldiyar</h1>
+        <h2>Course: Web Technologies / Software Engineering</h2>
+        <h3>I'm a  student</h3>
+    </div>
+
+    <!-- Step 16: Main container div -->
+    <div class="main-container">
+        
+        <!-- Step 10: Inline CSS example -->
+        <p style="color: blue;">
+            Hello! I am a software engineer student passionate about web development and software architecture.
+        </p>
+
+        <!-- Step 7: Mood text with 3 emojis -->
+        <p>
+            My mood today: ready to code and defend this assignment! 
+        </p>
+
+        <!-- Step 3 & 19: Image tag with sizing -->
+        <div class="profile-photo">
+            <img src="avatar.jpg" alt="Profile Photo" width="150">
+        </div>
+
+        <!-- Step 2 & 14: Ordered List & Class selector target -->
+        <h3>My Hobbies</h3>
+        <ol>
+            <li class="highlight">Software Engineering & Coding</li>
+            <li>Reading Technical Books</li>
+            <li class="highlight">Gaming & Sports</li>
+        </ol>
+
+        <!-- Step 2 & 3: Unordered List with clickable external links -->
+        <h3>Favorite Websites</h3>
+        <ul>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools Documentation</a></li>
+        </ul>
+
+        <!-- Step 4: HTML Button -->
+        <p>
+            <button type="button">Click Me</button>
+        </p>
+
+        <!-- Step 5: Table layout (3 columns: Subject, Day, Time) -->
+        <h3>Weekly Class Schedule</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Technologies</td>
+                    <td>Monday</td>
+                    <td>10:00 - 11:30</td>
+                </tr>
+                <tr>
+                    <td>Algorithms & Data Structures</td>
+                    <td>Wednesday</td>
+                    <td>12:00 - 13:30</td>
+                </tr>
+                <tr>
+                    <td>Software Engineering</td>
+                    <td>Friday</td>
+                    <td>14:00 - 15:30</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Step 8: HTML Form with required fields -->
+        <h3>Contact Form</h3>
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+            <label for="color">Favorite Color:</label><br>
+            <input type="color" id="color" name="color" value="#008cba"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Step 18: CSS Positioning elements -->
+        <h3>CSS Positioning Demonstration</h3>
+        <div class="pos-static">Static Position (Default Flow)</div>
+        <div class="pos-relative">Relative Position (Shifted relative to normal flow)</div>
+        <div class="pos-absolute-container">
+            <div class="pos-absolute">Absolute Position (Pinned inside relative container)</div>
+        </div>
+
+        <!-- Step 20: Float and Clear layout -->
+        <h3>Float and Clear Demonstration</h3>
+        <div class="float-box-container">
+            <div class="box-left">Left Box (Float: Left)</div>
+            <div class="box-right">Right Box (Float: Right)</div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+    <!-- Step 16: Footer section div -->
+    <div class="footer-section">
+        <p class="highlight">&copy; 2026 All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
