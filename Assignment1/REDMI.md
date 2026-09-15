@@ -27,8 +27,6 @@ I developed a personal portfolio webpage (`index.html`) and styled it using an e
 * **Step 3:** Embedded a profile image using `<img>` and added clickable external links with `<a>`.
 * **Step 4:** Included a simple interactive button labelled `"Click Me"`.
 
-![Part 1 Screenshot](screenshots/part1.png)
-
 ---
 
 ### Part 2: Intermediate HTML
@@ -36,15 +34,11 @@ I developed a personal portfolio webpage (`index.html`) and styled it using an e
 * **Step 7:** Included at least 3 emojis inside a paragraph describing daily mood.
 * **Step 8:** Designed a contact form with `Name` (text), `Email` (email), `Favorite Color` (color picker), and a Submit button.
 
-![Part 2 Screenshot](screenshots/part2.png)
-
 ---
 
 ### Part 3: Introduction to CSS
 * **Step 9–12:** Explored styling using inline CSS, internal `<style>` tags, and linked an external `style.css` file.
 * **Step 13–14:** Applied element selectors (`p`, `table`), class selectors (`.highlight`), and an ID selector (`#main-heading`).
-
-![Part 3 Screenshot](screenshots/part3.png)
 
 ---
 
@@ -56,8 +50,6 @@ I developed a personal portfolio webpage (`index.html`) and styled it using an e
 * **Step 19:** Configured element sizing using `px`, `%`, `em`, and `rem` units.
 * **Step 20:** Created a multi-column block using `float: left`, `float: right`, and resolved layout collapse using `clear: both`.
 * **Step 21:** Published the completed webpage via GitHub Pages.
-
-![Part 4 Screenshot](screenshots/part4.png)
 
 ---
 
